@@ -1,0 +1,16 @@
+[system]
+port = 3311
+retry = 3
+thread = 5
+# 间隔时间，单位s
+interval_time = 1
+data_dir = "/Users/liyuntang/data"
+log_file = "/Users/liyuntang/audit_log/audit_elk.log"
+
+[database]
+user = "admin_m"
+passwd = "XphoeGz6NED4yQMQ0yJc"
+address = "azkaban.meta.niceprivate.com"
+port = 9000
+charset = "utf8mb4"
+schema = "db_platform"
